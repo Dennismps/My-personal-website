@@ -4,16 +4,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  
-  background-color: gray;
-  height: 10000px;
-  background-repeat: no-repeat, repeat;
-  background-position: center;
-  background-size: 100%;
-  background-position-y:top;
 
-}
 
 .wrapper {
   margin: 0 auto;
