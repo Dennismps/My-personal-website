@@ -50,3 +50,7 @@ ul li a:hover{
   border: gray solid 5px;
   border-radius: 50px;
 }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
