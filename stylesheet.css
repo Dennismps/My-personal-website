@@ -14,10 +14,10 @@ body {
   background-position-y: top;
 }
 
-.logo{
+.logo {
   width: 50px;
   position: relative;
-  right:1850px;
+  right: 1850px;
   top: 20px;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .youtube {
-  position:relative;
+  position: relative;
   top: 100px;
   width: 1000px;
   height: 565px;
@@ -36,8 +36,6 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 1000px;
-  
-
 }
 
 .navbg {
@@ -137,9 +135,8 @@ ul li a {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  padding: 0 20px ;
+  padding: 0 20px;
   display: block;
- 
 }
 ul li a:hover {
   color: gray;
