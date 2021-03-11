@@ -14,6 +14,7 @@
 }
 
 nav {
+  
   width: 100%;
   height: 100px;
 }
@@ -26,6 +27,7 @@ body {
   background-position: center;
   background-size: 100%;
   background-position-y: top;
+  margin: 0;
 }
 
 .logo {
@@ -48,6 +50,11 @@ body {
   border-radius: 20px;
 }
 
+h1,p {
+  color: lightblue;
+}
+
+
 .youtube:hover {
   position: relative;
   top: 100px;
@@ -60,6 +67,8 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 1000px;
+  height: 10000px;
+  text-align: center;
 }
 
 ul {
@@ -90,11 +99,13 @@ ul li a:hover {
 
 .Dennis {
   width: 300px;
-  border: darkblue solid 5px;
+  border: lightblue solid 5px;
   border-radius: 50px;
 }
 .Dennis:hover {
-  width: 300px;
-  border: gray solid 5px;
+  width: 350px;
+  border: cyan solid 5px;
   border-radius: 50px;
 }
+
+
