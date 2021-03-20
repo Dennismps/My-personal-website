@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The best clicker</title>
+    <title>Cookeis 0</title>
     <link rel="stylesheet" href="Stysheet.css">
 </head>
 <body>
-    <p id="cookie-text">Cookies: 0</p>
+    <p id="text">Cookies: 0</p>
 
-    <input type="image"  src="Cookie_main.png" value="Bake a Cookie" onclick="bakeCookie()" class="Cookie_button">
+
+    <a href=# onclick="bakeCookie()"><img src="Cookie_main.png" class="Cookie_button"></a>
+
+   
+    
     <input type="button" value="Hire a baker" onclick="hireBaker()" class="hirebaker">
     <script src="index.js"></script>
     <p id="bakerPriceText"></p>
     <div class="left"></div>
     <div class="right"></div>
+    <button><a href="#" onclick="save()">Save</a></button>
+    <button><a href="#" onclick="load()">Load</a></button>
+    
+    <button><a href="#" onclick="buyAutoClicker()"><img src=cursor.png width="30px" alt=""></a></button>
+    <p id="costAutoCliker">12 cookies</p>
+    <p id="amountAutoClick">You own 0 Auto clickers</p>
+    
 </body>
 </html>
