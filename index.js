@@ -13,8 +13,6 @@ function update(){
     document.getElementById('cps').innerHTML = "Cookies per secons: " + cps;
 }
 
-
-
 function timer() {
     cookiecount = cookiecount + autoclicker;
     update()
