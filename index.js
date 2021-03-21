@@ -6,7 +6,7 @@ var bakers = 0;
 var cps = 0;
 
 function update(){
-    document.getElementById('text').innerHTML = "Cookies: " + cookiecount;
+    document.getElementById('text').innerHTML =cookiecount + " Cookies";
     document.title = cookiecount + " Cookies";
     document.getElementById('amountAutoClick').innerHTML = "Auto clickers: " + autoclicker;
     document.getElementById('costAutoCliker').innerHTML = "Auto clicker cost:  " + ((autoclicker+1) * 12);

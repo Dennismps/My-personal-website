@@ -64,8 +64,9 @@ body{
 }
 .left_divde {
     width: 30px;
-    position: fixed;
-    left: 400px;
+    position: relative;
+    
+    left: 500px;
     top: 0px;
 }
 
@@ -97,7 +98,7 @@ body{
 
 .right_divide {
     width: 30px;
-    position: fixed;
+    position: absolute;
     right: 400px;
     top: 0px;
 }
