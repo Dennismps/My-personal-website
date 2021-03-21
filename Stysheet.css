@@ -63,8 +63,9 @@ body {
 }
 .left_divde {
   width: 30px;
-  position: relative;
-
+  position: fixed;
+  object-fit: cover;
+  height: 100%;
   left: 500px;
   top: 0px;
 }
@@ -98,6 +99,8 @@ body {
 .right_divide {
   width: 30px;
   position: absolute;
+  object-fit: cover;
+  height: 100%;
   right: 400px;
   top: 0px;
 }
